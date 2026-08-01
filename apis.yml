@@ -1,7 +1,27 @@
 aid: ramre
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ramre.png
 name: Ramre
-description: Ramre is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ramre (RamRe) is the brand associated with Ram Reinsurance, now operating as American Overseas
+  Group Limited (AOG) — a Bermuda-based insurance holding company that is tax resident in the United
+  Kingdom. Through its U.S. subsidiaries the group writes non-standard automobile insurance and
+  provides related management services, and it operates as a reinsurer through a subsidiary based in
+  Barbados. The company was surfaced as a portfolio company of Canaan Partners and added to the API
+  Evangelist network as a stub for enrichment. An enrichment pass found no public developer program,
+  API, documentation, or SDK surface: this is a financial-services holding company whose public web
+  presence (ramre.com now redirects to aoreltd.com) is corporate and investor-relations oriented,
+  with no machine-readable API artifacts to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/ramre/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Reinsurance
+- Financial Services
+- Auto Insurance
+- Bermuda
+common:
+- type: DomainSecurity
+  url: security/ramre-domain-security.yml
+- type: Website
+  url: https://aoreltd.com/
+- type: TermsOfService
+  url: https://aoreltd.com/terms-and-conditions-of-use
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
