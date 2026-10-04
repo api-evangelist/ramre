@@ -47,7 +47,7 @@ tags:
 - Company
 - Insurance
 - Reinsurance
-- Financial-Services
+- Financial Services
 - Auto Insurance
 - Bermuda
 tags_raw:
@@ -57,6 +57,7 @@ tags_raw:
 - Financial Services
 - Auto Insurance
 - Bermuda
+- Financial-Services
 common:
 - type: DomainSecurity
   url: security/ramre-domain-security.yml
